@@ -15,17 +15,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+     "build": "babel src -d lib",
+    "test": "jest"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  {
-  "name": "my-package",
-  "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
-  }
-},
+  
   "browserslist": {
     "production": [
       ">0.2%",
