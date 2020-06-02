@@ -19,6 +19,13 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  {
+  "name": "my-package",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  }
+},
   "browserslist": {
     "production": [
       ">0.2%",
